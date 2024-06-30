@@ -1,0 +1,11 @@
+@import './tailwind.scss';
+@import './_variables';
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color);
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}

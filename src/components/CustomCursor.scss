@@ -1,0 +1,42 @@
+/* src/components/CustomCursor.scss */
+
+.cursor {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid var(--primary-color);
+    transition: all 100ms ease-out;
+    position: fixed;
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    transform: translate(calc(-50% + 15px), -50%);
+    z-index: 9999;
+  }
+  
+  .cursor2 {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+    background-color: var(--primary-color);
+    opacity: 0.3;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition: width 0.3s, height 0.3s, opacity 0.3s;
+    z-index: 9999;
+  }
+  
+  .cursor.click {
+    transform: translate(calc(-50% + 15px), -50%) scale(0.7);
+  }
+  
+  .cursor.hover {
+    border-color: red;
+  }
+  
+  .cursorinnerhover {
+    opacity: 0.6;
+    background-color: red;
+  }
+  

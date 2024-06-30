@@ -1,0 +1,32 @@
+@import './themes/light.theme';
+@import './themes/dark.theme';
+@import './colors/red.color';
+@import './colors/blue.color';
+@import './colors/green.color';
+@import './colors/orange.color';
+
+
+
+[data-theme='light'] {
+  @import './themes/light.theme';
+}
+
+[data-theme='dark'] {
+  @import './themes/dark.theme';
+}
+
+[data-color='red'] {
+  @import './colors/red.color';
+}
+
+[data-color='blue'] {
+  @import './colors/blue.color';
+}
+
+[data-color='green'] {
+  @import './colors/green.color';
+}
+
+[data-color='orange'] {
+  @import './colors/orange.color';
+}
